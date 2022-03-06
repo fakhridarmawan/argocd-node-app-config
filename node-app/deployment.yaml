@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: demo-registry.ap-southeast-5.cr.aliyuncs.com/sample/nodeapp:nodeapp
+          image: demo-registry.ap-southeast-5.cr.aliyuncs.com/sample/nodeapp:c579136
           ports:
             - containerPort: 3000
