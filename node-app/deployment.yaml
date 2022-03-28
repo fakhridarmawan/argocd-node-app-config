@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: demo-registry.ap-southeast-5.cr.aliyuncs.com/sample/nodeapp:nodeapp
+          image: demo-registry.ap-southeast-5.cr.aliyuncs.com/sample/nodeapp:e9d7242
           ports:
             - containerPort: 3000
       imagePullSecrets:
