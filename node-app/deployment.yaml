@@ -17,3 +17,5 @@ spec:
           image: demo-registry.ap-southeast-5.cr.aliyuncs.com/sample/nodeapp:nodeapp
           ports:
             - containerPort: 3000
+      imagePullSecrets:
+        - name: acr
